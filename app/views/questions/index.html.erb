@@ -1,0 +1,5 @@
+<% @questions.each do |question| %>
+  <%= question.question %>
+  <hr style="border-top: dotted 1px;" />
+<% end %>
+<%= paginate @questions %>
